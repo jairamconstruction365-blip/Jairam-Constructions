@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#14251f">
+  <title>Jairam Construction | Building Your Vision</title>
+  <meta name="description" content="Jairam Construction — residential and commercial construction, modern homes, villas and building solutions in Nainital, Haldwani and Pithoragarh, Uttarakhand.">
+  <style>
+    :root{--ink:#14251f;--green:#1e4939;--gold:#d6ad68;--cream:#f6f3ec;--muted:#66736d;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+    .topbar{background:#0d1b16;color:#e9e6dc;font-size:13px;padding:9px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header{position:sticky;top:0;z-index:10;background:rgba(246,243,236,.96);backdrop-filter:blur(12px);border-bottom:1px solid #e5dfd3}
+    nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.4px}.mark{width:42px;height:42px;border-radius:12px;background:var(--green);color:var(--gold);display:grid;place-items:center;font-family:Georgia,serif;font-size:22px;border:1px solid #b99154}
+    .brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2px;font-weight:700}
+    .navlinks{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:650}.navlinks a:hover{color:#a77c3d}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 20px;border-radius:7px;font-weight:750;font-size:14px;transition:.2s;border:1px solid transparent}
+    .btn-gold{background:var(--gold);color:#17241e}.btn-gold:hover{background:#e5c58c;transform:translateY(-2px)}
+    .btn-outline{border-color:#cfc6b6;color:white}.btn-outline:hover{background:#ffffff18}
+    .hero{min-height:610px;display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(9,23,17,.88),rgba(9,23,17,.55) 52%,rgba(9,23,17,.08)),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85') center/cover}
+    .hero-content{max-width:680px;padding:90px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:800}
+    h1{font-family:Georgia,serif;font-size:clamp(42px,6vw,76px);line-height:1.05;margin:18px 0}.hero p{font-size:18px;color:#e6e9e5;max-width:570px;margin-bottom:28px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}.trust{display:flex;gap:30px;flex-wrap:wrap;margin-top:54px;padding-top:24px;border-top:1px solid #ffffff4a}.trust strong{display:block;font-size:21px;color:var(--gold)}.trust span{font-size:12px;color:#e1e5df}
+    section{padding:86px 0}.section-head{max-width:680px;margin-bottom:38px}.section-head h2{font: bold clamp(32px,4vw,48px)/1.12 Georgia,serif;margin:10px 0 14px}.section-head p{color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about-photo{height:480px;border-radius:14px;overflow:hidden;position:relative}.about-photo img{width:100%;height:100%;object-fit:cover}.photo-note{position:absolute;bottom:16px;left:16px;background:#12251fdf;color:white;padding:9px 13px;border-radius:5px;font-size:11px}
+    .about-copy h2{font: bold clamp(32px,4vw,46px)/1.12 Georgia,serif;margin:10px 0 18px}.about-copy p{color:var(--muted)}
+    .checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:25px 0}.checks div{font-weight:700;font-size:14px}.checks span{color:#a77c3d;margin-right:8px}
+    .stats{background:var(--ink);color:white}.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.stat{padding:27px;border:1px solid #ffffff2b;border-radius:10px;text-align:center}.stat strong{display:block;color:var(--gold);font: bold clamp(30px,4vw,44px) Georgia,serif}.stat span{color:#d8dfda;font-size:13px}
+    .catalog{background:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:var(--cream);border-radius:11px;overflow:hidden;border:1px solid #e8e1d5}.card img{width:100%;height:245px;object-fit:cover;display:block}.card-body{padding:20px}.tag{display:inline-block;color:#8b6834;background:#eee2cc;padding:5px 9px;border-radius:4px;font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase}.card h3{font: bold 23px Georgia,serif;margin:12px 0 7px}.card p{color:var(--muted);font-size:14px;margin:0}
+    .services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.service{padding:23px 18px;border:1px solid #ddd5c8;border-radius:9px;background:#fff}.service b{font: bold 20px Georgia,serif;display:block;margin:12px 0 6px}.service p{font-size:13px;color:var(--muted);margin:0}.service-icon{font-size:25px}
+    .cta{background:linear-gradient(110deg,#183a2e,#10231c);color:white;text-align:center}.cta h2{font: bold clamp(32px,4vw,48px) Georgia,serif;margin:10px 0}.cta p{color:#d6dfd9;max-width:620px;margin:0 auto 25px}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px}.contact-card{background:#fff;padding:28px;border-radius:12px;border:1px solid #e6dfd4}.contact-item{display:flex;gap:14px;margin:20px 0;align-items:flex-start}.contact-icon{width:38px;height:38px;border-radius:9px;background:#eae4d8;display:grid;place-items:center;flex-shrink:0}.contact-item small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:800}.contact-item a,.contact-item strong{font-weight:700;overflow-wrap:anywhere}
+    .contact-panel{background:#eae4d8;padding:30px;border-radius:12px}.contact-panel h3{font: bold 28px Georgia,serif;margin:0 0 12px}.contact-panel p{color:var(--muted)}
+    footer{background:#0d1b16;color:#dbe1dc;padding:32px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot strong{color:var(--gold)}
+    .float-wa{position:fixed;right:18px;bottom:18px;z-index:20;background:#20b85a;color:white;border-radius:50px;padding:14px 18px;font-weight:800;box-shadow:0 8px 25px #0003}
+    @media(max-width:850px){.navlinks{gap:12px}.navlinks a:not(.btn){display:none}.about-grid,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.services-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.topbar .wrap{justify-content:center;text-align:center}.brand{font-size:14px}.navlinks .btn{padding:10px 12px;font-size:12px}.hero{min-height:570px}.hero-content{padding:70px 0}.hero p{font-size:16px}.trust{gap:18px}.trust strong{font-size:18px}section{padding:64px 0}.about-photo{height:330px}.stats-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.card img{height:230px}.services-grid{grid-template-columns:1fr 1fr}.service{padding:17px 13px}.checks{grid-template-columns:1fr}.float-wa{right:12px;bottom:12px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><span>📍 Nainital · Haldwani · Pithoragarh, Uttarakhand</span><span>✉ jairamconstruction365@gmail.com</span></div></div>
+  <header><nav class="wrap">
+    <a class="brand" href="#home"><span class="mark">J</span><span>JAIRAM CONSTRUCTION<small>BUILDING TRUST · CREATING HOMES</small></span></a>
+    <div class="navlinks"><a href="#about">About</a><a href="#catalogue">Catalogue</a><a href="#services">Services</a><a href="#contact" class="btn btn-gold">Get a Quote</a></div>
+  </nav></header>
+  <main>
+    <section class="hero" id="home"><div class="wrap"><div class="hero-content">
+      <div class="eyebrow">Thoughtful design · Quality construction</div>
+      <h1>Building your vision.<br>Creating your future.</h1>
+      <p>From beautiful family homes to premium residential projects, Jairam Construction brings planning, craftsmanship and care to every build.</p>
+      <div class="hero-actions"><a class="btn btn-gold" href="https://wa.me/917903912622?text=Namaste%20Jairam%20Construction%2C%20mujhe%20construction%20project%20ke%20liye%20jaankari%20aur%20quotation%20chahiye.">WhatsApp Us ↗</a><a class="btn btn-outline" href="#catalogue">Explore Catalogue</a></div>
+      <div class="trust"><div><strong>₹1 Cr+</strong><span>Completed project value</span></div><div><strong>₹7 Cr+</strong><span>Completed project value</span></div><div><strong>₹20 Cr+</strong><span>Completed project value</span></div></div>
+    </div></div></section>
+    <section id="about"><div class="wrap about-grid">
+      <div class="about-photo"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85" alt="Modern completed home exterior"><span class="photo-note">Architecture inspiration image</span></div>
+      <div class="about-copy"><div class="eyebrow">About Jairam Construction</div><h2>Strong foundations.<br>Beautiful spaces.</h2><p>We aim to make every project a thoughtful combination of strength, functionality and modern design. Whether you are planning a new home, a duplex or a larger building project, let's discuss your vision.</p><p>Serving clients across Nainital, Haldwani and Pithoragarh, Uttarakhand.</p><div class="checks"><div><span>✓</span>Residential construction</div><div><span>✓</span>Modern home design</div><div><span>✓</span>Project planning</div><div><span>✓</span>Quality-focused work</div></div><a class="btn btn-gold" href="#contact">Discuss Your Project</a></div>
+    </div></section>
+    <section class="stats"><div class="wrap"><div class="section-head"><div class="eyebrow">Project experience</div><h2>Projects built on trust.</h2><p style="color:#d2dcd5">Project values shared by the company. Add project names, locations and actual site photographs to make this portfolio more detailed.</p></div><div class="stats-grid">
+      <div class="stat"><strong>₹1 Crore+</strong><span>Completed project value</span></div><div class="stat"><strong>₹7 Crore+</strong><span>Completed project value</span></div><div class="stat"><strong>₹20 Crore+</strong><span>Completed project value</span></div>
+    </div></div></section>
+    <section class="catalog" id="catalogue"><div class="wrap"><div class="section-head"><div class="eyebrow">Our catalogue</div><h2>Spaces designed to feel like home.</h2><p>Explore residential styles and building ideas. These are illustrative architecture photographs; replace them with your own completed project photos for an authentic project gallery.</p></div>
+      <div class="cards">
+        <article class="card"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=85" alt="Contemporary luxury house"><div class="card-body"><span class="tag">Home collection</span><h3>Modern Luxury Homes</h3><p>Elegant elevations, welcoming entrances and comfortable family spaces.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85" alt="Modern duplex home"><div class="card-body"><span class="tag">Residential</span><h3>Duplex Houses</h3><p>Smart layouts with a balance of privacy, light and open living.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=85" alt="Premium villa design"><div class="card-body"><span class="tag">Premium living</span><h3>Villas & Bungalows</h3><p>Distinctive homes with thoughtful outdoor and indoor spaces.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85" alt="Modern interior living space"><div class="card-body"><span class="tag">Interiors</span><h3>Interior Finishing</h3><p>Refined finishes and practical details for everyday living.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?auto=format&fit=crop&w=900&q=85" alt="Residential building design"><div class="card-body"><span class="tag">Building</span><h3>Residential Buildings</h3><p>Well-planned multi-level spaces for modern requirements.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85" alt="Contemporary house detail"><div class="card-body"><span class="tag">Design ideas</span><h3>Exterior & Elevation</h3><p>Modern facades, materials and finishing ideas for your home.</p></div></article>
+      </div>
+    </div></section>
+    <section id="services"><div class="wrap"><div class="section-head"><div class="eyebrow">What we do</div><h2>Construction services</h2><p>Tell us what you are planning. We can discuss the scope and next steps for your project.</p></div>
+      <div class="services-grid">
+        <div class="service"><span class="service-icon">🏠</span><b>House Construction</b><p>New homes planned around your needs.</p></div>
+        <div class="service"><span class="service-icon">📐</span><b>Planning & Design</b><p>Discuss layouts, elevation and project requirements.</p></div>
+        <div class="service"><span class="service-icon">🏢</span><b>Building Projects</b><p>Residential and larger-scale construction.</p></div>
+        <div class="service"><span class="service-icon">🧱</span><b>Renovation</b><p>Upgrade and refresh existing spaces.</p></div>
+      </div>
+    </div></section>
+    <section class="cta"><div class="wrap"><div class="eyebrow">Start a conversation</div><h2>Have a project in mind?</h2><p>Share your location, plot details and what you want to build. Jairam Construction will connect with you to discuss your requirements.</p><a class="btn btn-gold" href="https://wa.me/917903912622?text=Namaste%20Jairam%20Construction%2C%20mujhe%20apne%20construction%20project%20par%20baat%20karni%20hai.">Chat on WhatsApp ↗</a></div></section>
+    <section id="contact"><div class="wrap"><div class="section-head"><div class="eyebrow">Contact us</div><h2>Let's build something great.</h2><p>Reach out for project enquiries, consultation and quotation requests.</p></div><div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-item"><span class="contact-icon">📱</span><div><small>Call / WhatsApp</small><a href="https://wa.me/917903912622">+91 79039 12622</a></div></div>
+        <div class="contact-item"><span class="contact-icon">✉️</span><div><small>Email</small><a href="mailto:jairamconstruction365@gmail.com">jairamconstruction365@gmail.com</a></div></div>
+        <div class="contact-item"><span class="contact-icon">📍</span><div><small>Service locations</small><strong>Nainital, Haldwani & Pithoragarh, Uttarakhand – 263001</strong></div></div>
+        <a class="btn btn-gold" style="width:100%;margin-top:12px" href="https://www.google.com/maps/search/?api=1&query=Nainital%2C%20Haldwani%2C%20Pithoragarh%2C%20Uttarakhand%20263001">View service area on Maps ↗</a>
+      </div>
+      <div class="contact-panel"><h3>Get a quick response on WhatsApp</h3><p>Tap below and a ready-made enquiry message will open. You can edit it before sending.</p><a class="btn btn-gold" href="https://wa.me/917903912622?text=Namaste%20Jairam%20Construction%2C%0A%0AMujhe%20construction%20ke%20liye%20quotation%20chahiye.%0A%0AProject%20location%3A%20%0AProject%20type%3A%20%0APlot%20size%3A%20%0AExpected%20budget%3A%20%0A%0AKripya%20mujhe%20sampark%20karein.">Send Project Enquiry ↗</a><p style="font-size:12px;margin-top:22px">Email enquiries: <a href="mailto:jairamconstruction365@gmail.com"><strong>jairamconstruction365@gmail.com</strong></a></p></div>
+    </div></div></section>
+  </main>
+  <footer><div class="wrap foot"><div><strong>JAIRAM CONSTRUCTION</strong><br>Building trust. Creating homes.</div><div>© <span id="year"></span> Jairam Construction. All rights reserved.</div><div>Nainital · Haldwani · Pithoragarh</div></div></footer>
+  <a class="float-wa" href="https://wa.me/917903912622?text=Namaste%20Jairam%20Construction%2C%20mujhe%20construction%20project%20ke%20baare%20mein%20jaankari%20chahiye." aria-label="Chat with Jairam Construction on WhatsApp">☏ WhatsApp</a>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
